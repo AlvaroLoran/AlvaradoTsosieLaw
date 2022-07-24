@@ -4,7 +4,30 @@
  --secondary: #ADB5BD;
 }
 
+main{
+    background-color: var(--primaryColor);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
 
-body{
-    background-color: var(--backgroundColor);
+body,
+h1,
+h2,
+h3,
+p {
+    margin:0;
+}
+
+h3,
+h2,
+p,
+div  {
+    margin-bottom: 1em;
+}
+
+logo{
+    max-width: 100%;
+    
 }
