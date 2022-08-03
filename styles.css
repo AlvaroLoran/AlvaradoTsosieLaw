@@ -1,4 +1,5 @@
 
+/* Universal styles*/
 *{
     box-sizing: border-box;
 }
@@ -12,15 +13,17 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: var(--primaryColor);
 }
-
 main{
     background-color: var(--backgroundColor);
     max-width: 60rem;
-    margin: 0 auto;
+    margin: 0 1rem;
     
     
+}
+
+section{
+    margin-bottom: 2rem;
 }
 
 img{
@@ -29,20 +32,53 @@ img{
 
 }
 
-
-body,
-h1,
-h2,
-h3,
-p {
-    margin:0;
-}
-
-
-h3,
 h2{
-    margin-bottom: 1em;
+    text-align: center;
+    color:var(--primaryColor)
 }
+
+ul{
+    list-style: none;
+}
+
+/*link styles*/
+a{
+    color: black;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+  
+a:visited {
+    text-decoration: none;
+    color:black;
+}
+  
+a:hover {
+    text-decoration: underline;
+    color:var(--primaryColor);
+}
+  
+
+a:active {
+    text-decoration: underline;
+    color:var(--primaryColor);
+  }
+/*
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+img{
+    display: block;
+    max-width: 100%;
+
+}
+
 
 .jumbotron{
     background-image: url(assets/staff.JPG);
@@ -141,3 +177,4 @@ h2{
         text-align: center;
     }
 }
+*/
