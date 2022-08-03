@@ -5,13 +5,14 @@
 
 :root {
  --backgroundColor: white;   
- --primaryColor: #315d8f; 
+ --primaryColor: #002366; 
  --secondary: #ADB5BD;
 }
 
 body{
     margin: 0;
     padding: 0;
+    background-color: var(--primaryColor);
 }
 
 main{
