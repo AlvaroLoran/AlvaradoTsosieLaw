@@ -1,23 +1,32 @@
 
 /* Universal styles*/
+
 *{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
 }
 
 :root {
  --backgroundColor: white;   
  --primaryColor: #002366; 
  --secondary: #ADB5BD;
+ --menu-distance: 20%;
+ --icon-distance: 15%;
 }
 
 body{
     margin: 0;
     padding: 0;
 }
+
 main{
-    background-color: var(--backgroundColor);
-    max-width: 60rem;
-    margin: 0 1rem;
+   
+    max-width: 100rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
     
     
 }
@@ -32,6 +41,20 @@ img{
 
 }
 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+.circleImg{
+    border-radius: 50%;
+    min-width: 50px;
+    max-width: 500px;
+    
+
+}
+
 h2{
     text-align: center;
     color:var(--primaryColor)
@@ -41,9 +64,14 @@ ul{
     list-style: none;
 }
 
+.active{
+    font-weight: bolder;
+}
+
 /*link styles*/
-a{
+.navbar-nav a{
     color: black;
+    font-size: larger;
 }
 a:link {
     text-decoration: none;
@@ -64,7 +92,149 @@ a:hover {
 a:active {
     text-decoration: underline;
     color:var(--primaryColor);
+}
+
+div .light{
+    color:white;
+}
+
+footer{
+    background-color: var(--primaryColor);
+    color:white;
+}
+
+footer .footerLink{
+    color:white;
+
+}
+
+
+
+/*Naviagtion Styles*/
+.container{
+    max-width: 100%;
+    margin: 0 auto;
+
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+nav{
+
+    background-color: var(--backgroundColor);
+    border-bottom: 3px solid --primaryColor;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 7px var(--primaryColor);
+}
+
+
+
+.navbar-nav{
+    display:flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-nav a:hover{
+    text-decoration: underline;
+}
+
+.language{
+    font-weight: bold;
+    border-left: solid 3px var(--primaryColor);
+}
+
+.logo{
+    margin-right: 0;
+    padding-left: 0;
+    margin-left: 0;
+    width: 280px;
+    max-width: 500px;
+    
+}
+
+.jumbotron{
+    padding:0;
+    border-radius: 0;
+}
+
+/*Areas of practice styles*/
+
+h2{
+    border-bottom: solid 2px var(--primaryColor);
+    text-align: center;
+}
+
+.card{
+    height: 400px;
+    margin-bottom: 2rem;
+    border: none;
+    background-color: #cccccc;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+.card-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    
   }
+
+#immigration{
+    background-image: url(assets/statueOfLiberty1920.jpg);
+
+
+}
+
+#criminalDefence{
+    background-image: url(assets/justice1920.jpg);
+}
+
+#familyLaw{
+    background-image: url(assets/familyLaw1920.jpg);
+}
+
+
+/*Our Story Styles*/
+
+.ourStory{
+    background-color: whitesmoke;
+    margin-bottom: 0;
+    padding-bottom: 2rem;
+}
+.ourStory p:last-child {
+    margin-bottom: 0;
+  }
+
+.ourStory img{
+    margin-bottom: 1rem;
+}
+
+
+
+
+/*Media Q's*/
+
+@media (min-width: 992px){
+    .navbar-nav {
+        margin-left: 7%;
+        
+    }
+
+}
+
 /*
 body{
     margin: 0;
