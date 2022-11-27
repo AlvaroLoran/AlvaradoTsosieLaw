@@ -56,6 +56,11 @@ img{
 
 }
 
+h1{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
 h2{
     text-align: center;
     color:var(--primaryColor)
@@ -240,6 +245,11 @@ h2{
 }
 
 
+/*about us styles*/
+
+
+
+
 
 
 /*Media Q's*/
@@ -251,6 +261,8 @@ h2{
     }
 
 }
+
+
 
 /*
 body{
