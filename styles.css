@@ -63,6 +63,7 @@ img{
 h1{
     margin-bottom: 1rem;
     margin-top: 1rem;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 h2{
@@ -132,6 +133,11 @@ footer{
 footer .footerLink{
     color:white;
 
+}
+
+.footerLink{
+    text-decoration: none;
+    color: white;
 }
 
 
@@ -218,7 +224,7 @@ h2{
 
 .card{
     height: 400px;
-    margin-bottom: 2rem;
+    margin-top: 2rem;
     border: none;
     background-color: #cccccc;
     background-position: center;
@@ -235,6 +241,13 @@ h2{
     transform: translate(-50%, -50%);
     color: white;
     
+}
+
+.card-body{
+    background-color: lightgray;
+    margin-bottom: 2rem;
+    border-radius: 0 0 12px 12px;
+
 }
 
 .card-text h3{
@@ -283,7 +296,10 @@ h2{
     max-width: 50rem;
     border-radius: 25px;
 }
-
+.positionDescription{
+    margin-top: 0;
+    padding-top: 0;
+}
 .cardText{
 
     margin-top: .5rem;
@@ -295,6 +311,7 @@ h2{
 .name{
     border-bottom: none;
     border-top: 4px solid var(--primaryColor);
+    margin-bottom: 0;
 }
 
 /*contact us styles*/
