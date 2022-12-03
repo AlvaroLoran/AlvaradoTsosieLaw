@@ -49,7 +49,7 @@ img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    /* width: 50%; */
     text-align: center;
   }
 .circleImg{
@@ -328,6 +328,10 @@ h2{
 .map{
     width: 90%;
 
+}
+
+.email{
+    font-weight: bold;
 }
 
 
