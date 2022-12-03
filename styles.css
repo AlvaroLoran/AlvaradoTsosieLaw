@@ -184,7 +184,7 @@ nav{
 
 .language{
     font-weight: bold;
-    border-left: solid 3px var(--primaryColor);
+    /* border-left: solid 3px var(--primaryColor); activate when spanish goes live */
 }
 
 .logo{
